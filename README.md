@@ -4,7 +4,7 @@
 [![GoDoc](https://godoc.org/github.com/armandonjunior/imersao-fullcycle-2025?status.svg)](https://godoc.org/github.com/armandonjunior/imersao-fullcycle-2025)
 [![Docker Pulls](https://img.shields.io/docker/pulls/armandonjunior/imersao-fullcycle-2025)](https://hub.docker.com/r/armandonjunior/imersao-fullcycle-2025)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Go](https://github.com/armandonjunior/imersao-fullcycle-2025/actions/workflows/go.yml/badge.svg)](https://github.com/armandonjunior/imersao-fullcycle-2025/actions/workflows/go.yml)
+[![Go](https://img.shields.io/badge/Go-1.21-blue.svg)](https://golang.org/)
 [![codecov](https://codecov.io/gh/armandonjunior/imersao-fullcycle-2025/branch/main/graph/badge.svg)](https://codecov.io/gh/armandonjunior/imersao-fullcycle-2025)
 [![Maintainability](https://api.codeclimate.com/v1/badges/your-repo-id/maintainability)](https://codeclimate.com/github/armandonjunior/imersao-fullcycle-2025/maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/armandonjunior/imersao-fullcycle-2025/badge.svg?branch=main)](https://coveralls.io/github/armandonjunior/imersao-fullcycle-2025?branch=main)
@@ -173,7 +173,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 Se você tiver alguma dúvida ou precisar de ajuda, abra uma issue no GitHub ou entre em contato através do email: seu-email@exemplo.com
 
----
+--- 
 <div align="center">
   <sub>Built with ❤️ by <a href="https://github.com/armandonjunior">Armando Junior</a></sub>
 </div>
