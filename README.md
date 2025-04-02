@@ -1,16 +1,31 @@
 # Imersão FullCycle 2025
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/armandonjunior/imersao-fullcycle-2025)](https://goreportcard.com/report/github.com/armandonjunior/imersao-fullcycle-2025)
+[![GoDoc](https://godoc.org/github.com/armandonjunior/imersao-fullcycle-2025?status.svg)](https://godoc.org/github.com/armandonjunior/imersao-fullcycle-2025)
+[![Docker Pulls](https://img.shields.io/docker/pulls/armandonjunior/imersao-fullcycle-2025)](https://hub.docker.com/r/armandonjunior/imersao-fullcycle-2025)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go](https://github.com/armandonjunior/imersao-fullcycle-2025/actions/workflows/go.yml/badge.svg)](https://github.com/armandonjunior/imersao-fullcycle-2025/actions/workflows/go.yml)
+[![codecov](https://codecov.io/gh/armandonjunior/imersao-fullcycle-2025/branch/main/graph/badge.svg)](https://codecov.io/gh/armandonjunior/imersao-fullcycle-2025)
+[![Maintainability](https://api.codeclimate.com/v1/badges/your-repo-id/maintainability)](https://codeclimate.com/github/armandonjunior/imersao-fullcycle-2025/maintainability)
+[![Coverage Status](https://coveralls.io/repos/github/armandonjunior/imersao-fullcycle-2025/badge.svg?branch=main)](https://coveralls.io/github/armandonjunior/imersao-fullcycle-2025?branch=main)
+
+<div align="center">
+  <img src="https://img.shields.io/github/stars/armandonjunior/imersao-fullcycle-2025?style=social" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/armandonjunior/imersao-fullcycle-2025?style=social" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/watchers/armandonjunior/imersao-fullcycle-2025?style=social" alt="GitHub Watchers">
+</div>
+
 Este é um projeto Go que implementa uma API REST simples para gerenciamento de produtos, utilizando PostgreSQL como banco de dados e Redis para cache.
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
-- Go 1.21
-- PostgreSQL 16
-- Redis
-- Docker
-- Docker Compose
+- [Go 1.21](https://golang.org/)
+- [PostgreSQL 16](https://www.postgresql.org/)
+- [Redis](https://redis.io/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
-## Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 ```
 .
@@ -21,17 +36,17 @@ Este é um projeto Go que implementa uma API REST simples para gerenciamento de 
 └── go.mod           # Gerenciamento de dependências Go
 ```
 
-## Pré-requisitos
+## ⚙️ Pré-requisitos
 
 - Docker
 - Docker Compose
 - Go 1.21 (para desenvolvimento local)
 
-## Configuração do Ambiente
+## 🛠️ Configuração do Ambiente
 
 1. Clone o repositório:
 ```bash
-git clone <seu-repositorio>
+git clone https://github.com/armandonjunior/imersao-fullcycle-2025.git
 cd imersao-fullcycle-2025
 ```
 
@@ -40,7 +55,7 @@ cd imersao-fullcycle-2025
 docker-compose up --build -d
 ```
 
-## Endpoints da API
+## 🔌 Endpoints da API
 
 ### Listar Produtos
 ```bash
@@ -71,7 +86,7 @@ Resposta:
 ]
 ```
 
-## Estrutura do Banco de Dados
+## 💾 Estrutura do Banco de Dados
 
 ### Tabela: products
 - id (SERIAL PRIMARY KEY)
@@ -79,7 +94,7 @@ Resposta:
 - description (TEXT)
 - price (DECIMAL(10,2))
 
-## Variáveis de Ambiente
+## 🔐 Variáveis de Ambiente
 
 A aplicação utiliza as seguintes variáveis de ambiente:
 
@@ -89,7 +104,7 @@ A aplicação utiliza as seguintes variáveis de ambiente:
 - POSTGRES_PASSWORD: Senha do PostgreSQL (default: postgres)
 - POSTGRES_DB: Nome do banco de dados (default: postgres)
 
-## Desenvolvimento Local
+## 💻 Desenvolvimento Local
 
 Para executar a aplicação localmente sem Docker:
 
@@ -100,7 +115,7 @@ go mod tidy
 go run main.go
 ```
 
-## Docker
+## 🐳 Docker
 
 O projeto utiliza três containers:
 
@@ -116,16 +131,16 @@ O projeto utiliza três containers:
    - Porta: 6379
    - Preparado para implementação de cache
 
-## Volumes
+## 💾 Volumes
 
 - postgres_data: Armazena os dados do PostgreSQL
 - redis_data: Armazena os dados do Redis
 
-## Health Checks
+## 🏥 Health Checks
 
 O PostgreSQL inclui health checks para garantir que o serviço esteja pronto antes de iniciar a aplicação.
 
-## Contribuição
+## 🤝 Contribuição
 
 1. Faça um fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
@@ -133,7 +148,33 @@ O PostgreSQL inclui health checks para garantir que o serviço esteja pronto ant
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## Licença
+## 📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## 👥 Autores
+
+- **Armando Junior** - *Trabalho Inicial* - [armandonjunior](https://github.com/armandonjunior)
+
+## 🙏 Agradecimentos
+
+- FullCycle
+- Comunidade Go
+- Todos os contribuidores
+
+## 📈 Status do Projeto
+
+![GitHub last commit](https://img.shields.io/github/last-commit/armandonjunior/imersao-fullcycle-2025)
+![GitHub issues](https://img.shields.io/github/issues/armandonjunior/imersao-fullcycle-2025)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/armandonjunior/imersao-fullcycle-2025)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/armandonjunior/imersao-fullcycle-2025)
+
+## 📞 Suporte
+
+Se você tiver alguma dúvida ou precisar de ajuda, abra uma issue no GitHub ou entre em contato através do email: seu-email@exemplo.com
+
+---
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/armandonjunior">Armando Junior</a></sub>
+</div>
 
